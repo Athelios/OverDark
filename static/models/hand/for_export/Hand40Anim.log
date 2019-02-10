@@ -1,0 +1,49 @@
+Exporter version: 5.2.0, Blender version: 2.78 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  /run/user/1000/gvfs/sftp:host=10.0.0.36,user=daniel/home/daniel/final/static/models/hand/for_export/
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of skeleton:  Armature, id:  0
+		processing begun of bone:  c, index:  0
+		processing begun of bone:  b, index:  1
+		processing begun of bone:  a, index:  2
+		processing begun of bone:  f3p3, index:  3
+		processing begun of bone:  f3p2, index:  4
+		processing begun of bone:  f3p1, index:  5
+		processing begun of bone:  f2p3, index:  6
+		processing begun of bone:  f2p2, index:  7
+		processing begun of bone:  f2p1, index:  8
+		processing begun of bone:  f4p3, index:  9
+		processing begun of bone:  f4p2, index:  10
+		processing begun of bone:  f4p1, index:  11
+		processing begun of bone:  f5p3, index:  12
+		processing begun of bone:  f5p2, index:  13
+		processing begun of bone:  f5p1, index:  14
+		processing begun of bone:  f1p3, index:  15
+		processing begun of bone:  f1p2, index:  16
+		processing begun of bone:  f1p1, index:  17
+	processing begun of mesh:  male
+		processing begun of Standard material:  Material.001
+			Diffuse texture found "Kd"
+				Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+	WARNING: Error encountered processing image file:  , Error:  [Errno 2] No such file or directory: '/run/user/1000/gvfs/sftp:host=10.0.0.36,user=daniel/home/daniel/final/static/models/hand/for_export/mains_high_04.jpg'
+		num positions      :  1903
+		num normals        :  1903
+		num uvs            :  3806
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6804
+		Skeleton stats:  
+			Total Influencers:  3988
+			Avg # of influencers per vertex:  2.0956
+			Highest # of influencers observed:  5, num vertices with this:  6
+			exported as 5 influencers
+			num skeletonWeights and skeletonIndices:  15224
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 1.0937 secs

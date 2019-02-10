@@ -1,0 +1,293 @@
+Exporter version: 5.2.0, Blender version: 2.78 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  /run/user/1000/gvfs/sftp:host=10.0.0.36,user=daniel/home/daniel/final/static/models/hand/
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of skeleton:  basicRig, id:  0
+		processing begun of bone:  forearm.L.001, index:  0
+		processing begun of bone:  hand.L, index:  1
+		processing begun of bone:  palm_pinky.L, index:  2
+		processing begun of bone:  f_pinky.01.L, index:  3
+		processing begun of bone:  f_pinky.02.L, index:  4
+		processing begun of bone:  f_pinky.03.L, index:  5
+		processing begun of bone:  palm_index.L, index:  6
+		processing begun of bone:  f_index.01.L, index:  7
+		processing begun of bone:  f_index.02.L, index:  8
+		processing begun of bone:  f_index.03.L, index:  9
+		processing begun of bone:  palm_ring.L, index:  10
+		processing begun of bone:  f_ring.01.L, index:  11
+		processing begun of bone:  f_ring.02.L, index:  12
+		processing begun of bone:  f_ring.03.L, index:  13
+		processing begun of bone:  palm_middle.L, index:  14
+		processing begun of bone:  f_middle.01.L, index:  15
+		processing begun of bone:  f_middle.02.L, index:  16
+		processing begun of bone:  f_middle.03.L, index:  17
+		processing begun of bone:  thumb.01.L, index:  18
+		processing begun of bone:  thumb.02.L, index:  19
+		processing begun of bone:  thumb.03.L, index:  20
+		processing begun of bone:  clavicle.L, index:  21
+		processing begun of bone:  deltoid.L, index:  22
+		processing begun of bone:  upper_arm.L, index:  23
+		processing begun of bone:  forearm.L, index:  24
+	processing begun of mesh:  basicRig:Body
+		processing begun of Standard material:  basicRig:Skin.001
+		processing begun of Standard material:  basicRig:Invisio
+		processing begun of Standard material:  basicRig:Red
+		processing begun of Standard material:  basicRig:Green
+		processing begun of Standard material:  basicRig:Blue
+		processing begun of Standard material:  basicRig:Yellow
+		processing begun of Standard material:  basicRig:Skin
+		processing begun of multimaterial:  hand.Multimaterial#0
+		num positions      :  2846
+		num normals        :  2846
+		num uvs            :  5692
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12228
+		Skeleton stats:  
+			Total Influencers:  5572
+			Avg # of influencers per vertex:  1.9578
+			Highest # of influencers observed:  4, num vertices with this:  340
+			exported as 4 influencers
+			num skeletonWeights and skeletonIndices:  11384
+	processing begun of node:  CustomShapes
+	processing begun of mesh:  GZM_CircleHips
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_FaceHead
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Tongue
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_LoLid
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Gaze
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Root
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Neck
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Foot
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_RevToe
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Cube025
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Breast_R
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Toe
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Knuckle
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_UpLid
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Hand
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Circle025
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_HandIK
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Breast_L
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Jaw
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_RevFoot
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Master
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Ball025
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_CrownHips
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_FootIK
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_CircleChest
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_FaceJaw
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Shoulder
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_CircleSpine
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  GZM_Head
+		WARNING: No materials have been assigned: 
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 2.0959 secs

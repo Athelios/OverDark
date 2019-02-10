@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="shortcut icon" href="{{ url_for('static', filename='icon.png') }}">
+
+        <title>• Overdark</title>
+        
+        <script type="text/javascript" src="/static/src/3rd_party/socket.io.js"></script>
+
+        <script src="/static/src/3rd_party/babylon.js"> </script>
+        
+        <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}">
+        
+    </head>
+    
+    <body>
+        <canvas id="renderCanvas"></canvas>
+        
+        <div id="blocker"></div>  
+        <div id="holder"></div>    
+        <div id="circle" class="radius"></div>                     
+        <div id="crosshair"></div>
+        <div id="action"><div id="key">F</div><p id="action_text">Open</p></div>
+        <div id="status">
+        	<div id="life_div">
+        		<div id="life_progress"></div>
+        		<p id="life_text">100%</p>
+        	</div>
+        	<div id="energy_div">
+        		<div id="energy_progress"></div>
+        		<p id="energy_text">100%</p>
+        	</div>
+        </div>
+        
+        <div id="chatdiv" onload="whoami()">
+          <div id=chat onmouseout="chat.scrollTop = chat.scrollHeight;">
+            <table id=table>
+            </table>
+          </div>
+          <input id=input type="text" onfocus="clearChat();">
+        </div>
+        
+        <div id="fps"></div>
+        
+        <div id="menu">
+    		<div class="menu_window" id="main_window">
+    			<p class="menu_nadpis1">Menu</p>
+    			<hr>
+        		<div class="button clickable" onclick="window_show('settings')">Settings</div>
+        		<div class="button clickable" onclick="window.location.replace('logout')">Logout</div>
+   		 	</div>
+   		 	<div class="menu_window" id="settings_window">
+    			<p class="menu_nadpis1">Settings</p>
+    			<hr>
+        		<div class="button clickable" onclick="window_show('graphic_settings')">Graphics Settings</div>
+        		<div class="button clickable" onclick="">Interface</div>
+        		<hr>
+        		<div class="triple_button autowidth">
+        			<div class="but storno" onclick="window_show('main')">Back</div>
+        		</div>
+   		 	</div>
+   		 	<div class="menu_window" id="graphic_settings_window">
+    			<p class="menu_nadpis1">Graphics Settings</p>
+    			<hr>
+    			<p class="menu_podnadpis1">Models quality</p>
+    			<div class="triple_button">
+        			<div class="but left models_quality_but" onclick="settings_set('models_quality', 1, 'triplebutton')">Low</div>
+        			<div class="but middle choosen models_quality_but" onclick="settings_set('models_quality', 2, 'triplebutton')">Medium</div>
+        			<div class="but right models_quality_but" onclick="settings_set('models_quality', 3, 'triplebutton')">High</div>
+        		</div>
+        		<p class="menu_podnadpis1">Rendering distance</p>
+    			<div class="triple_button">
+        			<div class="but left_arrow" onclick="settings_set('chunk_radius', ' chunks', 'decrease')"><</div>
+        			<div class="but middle_display" onclick="" id="chunk_radius_display">7 chunks</div>
+        			<div class="but right_arrow" onclick="settings_set('chunk_radius', ' chunks', 'increase')">></div>
+        		</div>
+        		<p class="menu_podnadpis1">Display scaling</p>
+    			<div class="triple_button">
+        			<div class="but left_arrow" onclick="settings_set('display_scaling', 'x', 'decrease')"><</div>
+        			<div class="but middle_display" onclick="" id="display_scaling_display">1x</div>
+        			<div class="but right_arrow" onclick="settings_set('display_scaling', 'x', 'increase')">></div>
+        		</div>
+            <p class="menu_podnadpis1">Pixelization</p>
+          <div class="triple_button">
+        		<div class="but left double pixelization_but choosen" onclick="settings_set('pixelization', 0, 'doublebutton')">Off</div>
+        		<div class="but right double pixelization_but" onclick="settings_set('pixelization', 1, 'doublebutton')">On</div>
+        	</div>
+        		<hr>
+        		<div class="triple_button">
+        			<div class="but storno" onclick="window_show('settings')">Back</div>
+        			<div class="but apply" onclick="settings_apply(game_settings);window_show('settings')">Apply</div>
+        		</div>
+   		 	</div>
+  		</div>
+
+		<div id="popup">
+    		<div class="popup_window">
+        		<p class="popup_nadpis" id="popup_nadpis"></p>
+				<table>
+					<tr>
+						<td> <img id="popup_img" class="popup_img" src="/static/images/disconnected.png"> </td>
+						<td> <p class="popup_text" id="popup_text"></p>
+							<div class="popup_button" id="popup_button" onclick="location.reload()"></div></td>
+					</tr>
+				</table>
+   		 	</div>
+  		</div>
+
+<script src="/static/src/Init.js"></script>
+<script src="/static/src/Terrain.js"></script>
+<script src="/static/src/Game.js"></script>
+<script src="/static/src/Loader.js"></script>
+<script src="/static/src/Actors.js"></script>
+<script src="/static/src/PointerLockAPI.js"></script>
+<script src="/static/src/GUI.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "restart": {
+    "color": "#b51414",
+    "header": "Server has been restarted!",
+    "picture": "static/images/disconnected.png",
+    "text": "Server has been restarted. Your session isn't valid anymore. Please reload the page.",
+    "button": "Reload",
+    "action": "location.reload();"
+  },
+  "custom": {
+    "color": "#0000ff",
+    "header": "Server",
+    "picture": "static/images/message.png",
+    "button": "OK",
+    "action": "popup_hide();"
+  }
+}
