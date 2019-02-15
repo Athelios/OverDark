@@ -236,7 +236,7 @@ if __name__ == '__main__':
 	try:
 		port = int(sys.argv[2])
 	except:
-		port = 10256
+		port = 80
 	thread = threading.Thread(target=threaded)
 	thread.start()
 	app.threaded = True
