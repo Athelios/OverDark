@@ -21,7 +21,9 @@ E.g. python3 game.py 127.0.0.1 80 -> http://localhost
 
 [http://od.marcus.cf](http://od.marcus.cf)
 
-[![OverDark](http://img.youtube.com/vi/2zuRVztyG2Q/0.jpg)](http://www.youtube.com/watch?v=2zuRVztyG2Q)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=2zuRVztyG2Q
+" target="_blank"><img src="http://img.youtube.com/vi/2zuRVztyG2Q/0.jpg" 
+alt="OverDark" width="240" height="180" border="10" /></a>
 
 ### Controls
 ```
