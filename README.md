@@ -10,7 +10,7 @@ pip3 install -r requirements.txt
 ```
 
 ### Run
-Application is based on web server so after running local web server you can connect by web browser address (recommended Chrome)
+Application is based on web server so after running local web server you can connect by web browser (recommended Chrome)
 ```
 python3 game.py [ip, port]
 
