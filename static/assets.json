@@ -196,6 +196,9 @@
       "icon":"small_table.png",
       "type":"buildable",
       "actor":8
+    },
+    "278":{
+      "icon":"diamond.png"
     }
   },
   "blocks":{
