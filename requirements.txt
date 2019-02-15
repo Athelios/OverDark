@@ -1,4 +1,4 @@
-flask
-flask-socketio
-socketio-client
-opensimplex
+flask==1.0.2
+flask-socketio==3.2.1
+socketio-client==0.7.2
+opensimplex==0.2
