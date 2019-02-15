@@ -17,6 +17,10 @@ python3 game.py [ip, port]
 E.g. python3 game.py 127.0.0.1 80 -> http://localhost
 ```
 
+### Playable demo
+
+[http://od.marcus.cf](http://od.marcus.cf)
+
 ### Controls
 ```
 Movement = WSAD
