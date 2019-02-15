@@ -177,14 +177,16 @@ class table(breakable):
         player = self.chunk.world.server.players[request.sid]
         if button == 0:
             if player.drag:
-                if player.drag['id'] == self.item[0]:
-                    soucet = player.drag['qv'] + self.item[1]
-                    if soucet <= 64:
-                        player.drag['qv'] = soucet
-                        self.clear()
+                if self.item:
+                    if player.drag['id'] == self.item[0]:
+                        total = player.drag['qv'] + self.item[1]
+                        if total <= 64:
+                            player.drag['qv'] = total
+                            self.clear()
             else:
-                player.drag = {'id':self.item[0], 'qv':self.item[1]}
-                self.clear()
+                if self.item:
+                    player.drag = {'id':self.item[0], 'qv':self.item[1]}
+                    self.clear()
         else:
             pass
 
