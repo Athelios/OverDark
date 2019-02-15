@@ -16,3 +16,13 @@ python3 game.py [ip, port]
 
 E.g. python3 game.py 127.0.0.1 80 -> http://localhost
 ```
+
+### Controls
+Movement = WSAD
+Toolbar = Wheel
+Equip Item = Hold Alt + Left/Right Mouse
+Item primary function = Mouse
+Item secondary function = Shift + Mouse
+Inventory = E
+Char = T
+Function = F
