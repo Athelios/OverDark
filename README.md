@@ -25,6 +25,6 @@ Equip Item = Alt + Left/Right Mouse
 Item primary function = Mouse
 Item secondary function = Shift + Mouse
 Inventory = E
-Char = T
+Chat = T
 Function = F
 ```
