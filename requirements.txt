@@ -1,0 +1,4 @@
+flask
+flask-socketio
+socketio-client
+opensimplex
