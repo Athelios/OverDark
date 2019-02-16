@@ -35,3 +35,28 @@ Function = F
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=2zuRVztyG2Q
 " target="_blank"><img src="http://img.youtube.com/vi/2zuRVztyG2Q/0.jpg" 
 alt="OverDark" width="240" height="180" border="10" /></a>
+
+### Project structure
+
+```
+Server side:
+
+game.py - Flask server, socketio hooks
+server.py - Server, player classes
+generator.py - World generation
+actors.py - World actors
+
+recipes - recipes for crafting table
+
+Client side:
+
+static/src/Game.js - Main game class
+static/src/GUI.js - GUI, inventory
+static/src/Terrain.js - World, chunks and actors spawn
+static/src/Worker.js - Threaded chunk geometry builder
+static/src/Actors.js - Equiped items functionality
+
+Shared:
+
+static/assets.json - All blocks, actors and items ids, models, materials, attributes.
+```
