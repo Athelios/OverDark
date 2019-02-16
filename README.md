@@ -54,7 +54,7 @@ static/src/Game.js - Main game class
 static/src/GUI.js - GUI, inventory
 static/src/Terrain.js - World, chunks and actors spawn
 static/src/Worker.js - Threaded chunk geometry builder
-static/src/Actors.js - Equiped items functionality
+static/src/Actors.js - Equipped items functionality
 
 Shared:
 
