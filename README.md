@@ -56,6 +56,8 @@ static/src/Terrain.js - World, chunks and actors spawn
 static/src/Worker.js - Threaded chunk geometry builder
 static/src/Actors.js - Equipped items functionality
 
+static/textures/atlas.png - Terrain blocks texture atlas
+
 Shared:
 
 static/assets.json - All blocks, actors and items ids, models, materials, attributes.
