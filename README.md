@@ -28,13 +28,6 @@ Inventory = E
 Chat = T
 Function = F
 ```
-### Playable demo
-
-[http://od.marcus.cf](http://od.marcus.cf)
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=2zuRVztyG2Q
-" target="_blank"><img src="http://img.youtube.com/vi/2zuRVztyG2Q/0.jpg" 
-alt="OverDark" width="240" height="180" border="10" /></a>
 
 ### Project structure
 
